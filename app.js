@@ -30,3 +30,8 @@ function play() {
         }
     }
 };
+
+
+reset.addEventListener("click", function(){
+    location.reload();
+});
